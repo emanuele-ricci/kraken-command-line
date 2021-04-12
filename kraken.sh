@@ -14,7 +14,7 @@ info(){
     echo "Options available:"
     echo "[option] [sell/buy action] [pair from asset.json]"
     echo ""
-	echo "-m [buy] [XBT/EUR] [volume] [leverage] [priceClose]                              set order sell or buy with open market price and limit closing price"
+    echo "-m [buy] [XBT/EUR] [volume] [leverage] [priceClose]                              set order sell or buy with open market price and limit closing price"
     echo "-l [sell] [XBT/EUR] [volume] [leverage] [priceOpen] [priceClose]                 set order sell or buy with limit open price and closing price"
     echo "-p [XBT/EUR]                                                                     current price and last min,max 24h prices"
     echo "-b                                                                               balance available"
