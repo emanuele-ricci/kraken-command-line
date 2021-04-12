@@ -1,0 +1,29 @@
+
+[README]
+
+    The javascript files has been used and tested with node.js v14.16.0
+
+    npm module installed:
+
+        $ npm install kraken-api
+
+
+
+
+[CONFIGURATION]
+
+    In order to communicate with the kraken API: 
+
+    Set the KEY and SECRET token inside the "api-key.json" file.
+
+
+[USE]
+
+    run kraken.sh and follow the instruction --help
+
+
+[NOTE]
+
+    Inside the file "assets.json" are present all assets available from kraken.
+
+    When requesting, some pair are considered query_unkown from kraken.   
