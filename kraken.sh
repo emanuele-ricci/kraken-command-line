@@ -27,5 +27,5 @@ info(){
 if [[ -z $1 ]] || [[ $1 == "-h" ]] || [[ $1 == "--help" ]]; then
     info
 else
-    node "./query_modules/kraken-command.js" ${arguments[@]}
+    node "./kraken_modules/kraken-command.js" ${arguments[@]}
 fi
